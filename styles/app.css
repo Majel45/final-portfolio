@@ -14,6 +14,10 @@ h2 {
   line-height: 45px;
 }
 
+h4 {
+  font-size: 28px;
+}
+
 p {
   color: var(--secondary-color);
 }
@@ -113,17 +117,54 @@ a:hover {
   padding-top: 108px;
 }
 
+footer .email-link {
+  font-size: 18px;
+}
+
+footer .social-links a {
+
+  font-size: 18px;
+}
+
 .contact a {
-  color: white;
+  color:white;
 }
 
 .contact a:hover {
   color:#111827;
 }
 
+footer .contact-box {
+  padding: 30px 240px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+.contact-box h4{
+  color: white;
+}
+
+.contact-box p {
+  color: #cbd5e0;
+}
+
 @media(max-width: 672px) {
   .project-description {
     padding: 0 30px;
+  }
+  header a {
+    font-size: 14px;
+  }
+  footer .email-link {
+    font-size: 14px;
+  }
+  footer .social-links {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 26px;
   }
 }
 
