@@ -114,11 +114,19 @@ a:hover {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 100px 60px;
 }
 
-.pt-108 {
-  padding-top: 108px;
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-134 {
+  padding-top: 134px;
 }
 
 footer .email-link {
@@ -152,10 +160,12 @@ footer .contact-box p {
 
 footer p {
   color:#cbd5e0;
+  font-size: 14px;
 }
 
 #source a {
   margin: 0;
+  font-size: 14px;
 }
 
 #source a:hover {
