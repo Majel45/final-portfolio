@@ -122,7 +122,6 @@ footer .email-link {
 }
 
 footer .social-links a {
-
   font-size: 18px;
 }
 
@@ -134,12 +133,30 @@ footer .social-links a {
   color:#111827;
 }
 
+footer h2 {
+  color: white;
+  margin-left: 10px;
+}
+
 footer .contact-box {
   padding: 30px 240px;
 }
 
 footer .contact-box p {
   margin: 0;
+}
+
+footer p {
+  color:#cbd5e0;
+}
+
+#source a {
+  margin: 0;
+}
+
+#source a:hover {
+  margin: 0;
+  color: #111827;
 }
 
 .contact-box h4{
