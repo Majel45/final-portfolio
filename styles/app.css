@@ -113,6 +113,20 @@ a:hover {
   padding-top: 108px;
 }
 
+.contact a {
+  color: white;
+}
+
+.contact a:hover {
+  color:#111827;
+}
+
+@media(max-width: 672px) {
+  .project-description {
+    padding: 0 30px;
+  }
+}
+
 @media (min-width: 672px) {
   .max-width-2xl {
     max-width: 42rem;
@@ -124,24 +138,5 @@ a:hover {
   .max-width-5xl {
     max-width: 64rem;
     margin: auto;
-  }
-}
-
-/* small device */
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
-/* medium device */
-@media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-/* large device */
-@media (min-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
